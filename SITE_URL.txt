@@ -1,0 +1,11 @@
+Live Site URLs
+==============
+
+GitHub Pages (staging):
+  https://pnayga.github.io/science-corps-website/
+
+Custom Domain (production):
+  https://science-corps.org
+
+GitHub Repository:
+  https://github.com/pnayga/science-corps-website
