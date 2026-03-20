@@ -4,38 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fellows — Science Corps</title>
-  <meta name="description" content="Meet the current and former Science Corps fellows — PhD scientists teaching and building STEM capacity worldwide.">
+  <meta name="description" content="Meet Science Corps current and former fellows — PhD scientists teaching STEM in underserved communities worldwide.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<nav class="navbar">
+<nav class="navbar scrolled">
   <div class="container navbar__inner">
-    <a class="navbar__logo" href="index.html">
-      <img src="images/logo-nav.png" alt="Science Corps Logo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">
-      <span style="display:none">Science Corps</span>
-    </a>
+    <a class="navbar__logo" href="index.html"><img src="images/logo-nav.png" alt="Science Corps Logo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'"><span style="display:none">Science Corps</span></a>
     <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     <ul class="nav-menu">
       <li><a href="index.html">Home</a></li>
-      <li class="dropdown">
-        <a href="about-us.html">About Us ▾</a>
-        <ul class="dropdown-menu">
-          <li><a href="about-us.html#host1">Host Sites</a></li>
-          <li><a href="about-us.html#team1">Our Team</a></li>
-          <li><a href="about-us.html#partner1">Partners</a></li>
-          <li><a href="about-us.html#faq">FAQs</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a href="fellows.html">Fellows ▾</a>
-        <ul class="dropdown-menu">
-          <li><a href="fellows.html#currentfellows">Current Fellows</a></li>
-          <li><a href="fellows.html#formerfellows1">Former Fellows</a></li>
-        </ul>
-      </li>
+      <li class="dropdown"><a href="about-us.html">About Us ▾</a><ul class="dropdown-menu"><li><a href="about-us.html#host1">Host Sites</a></li><li><a href="about-us.html#team1">Our Team</a></li><li><a href="about-us.html#partner1">Partners</a></li><li><a href="about-us.html#faq">FAQs</a></li></ul></li>
+      <li class="dropdown active"><a href="fellows.html">Fellows ▾</a><ul class="dropdown-menu"><li><a href="#currentfellows">Current Fellows</a></li><li><a href="#formerfellows1">Former Fellows</a></li></ul></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="apply.html">Apply</a></li>
       <li><a href="donate.html" class="nav-cta">Donate</a></li>
@@ -43,145 +26,158 @@
   </div>
 </nav>
 
-<section style="background:linear-gradient(135deg,var(--blue-dark),var(--blue));color:#fff;padding:60px 0;text-align:center">
+<!-- Page Header -->
+<div class="page-header">
   <div class="container">
-    <h1>Our Fellows</h1>
-    <p style="opacity:.85;margin-top:12px;font-size:1.05rem">PhD scientists teaching and building STEM capacity in underserved communities worldwide</p>
+    <h1>Fellows</h1>
+    <p>PhD scientists teaching and building STEM capacity worldwide</p>
   </div>
-</section>
+</div>
 
 <!-- Current Fellows -->
-<section id="currentfellows" class="section">
+<section class="section" id="currentfellows">
   <div class="container">
-    <div class="section-title">
-      <h2>Current Fellows</h2>
-      <p>Scientists currently placed with our partner institutions around the world.</p>
-      <div class="divider"></div>
-    </div>
+    <h2 class="section-title">Current Fellows</h2>
+    <div class="fellows-grid">
 
-    <div class="fellow-profile">
-      <img src="images/fellow-iris-bea-ramiro.jpeg" alt="Iris Bea Ramiro" onerror="this.style.background='var(--blue-light)';this.style.height='300px'">
-      <div>
-        <h3>Iris Bea (Bea) Ramiro, Ph.D.</h3>
-        <p><strong>Site:</strong> University of Copenhagen, Denmark &amp; outreach in the Philippines</p>
-        <p>Bea grew up in the island province of Bohol in the Philippines. She has been surrounded by nature all her life, which led to her interest in natural products — initially from plants, and now from venomous marine gastropods. She discovered a hormone-like peptide from slow-hunting cone snails with biomedical applications. She loves sharing her insights into the fascinating world of cone snails through science education and outreach projects. Having recently finished her PhD, she continues her research at Helena Safavi's lab at the University of Copenhagen in Denmark.</p>
-        <p>When she is out of the lab, Bea is a photography enthusiast who enjoys traveling and exploring the outdoors.</p>
-        <a href="blog/filipinas-in-stem-iris-bea-ramiro.html" class="btn btn-blue" style="display:inline-block;margin-top:12px">Read her Filipinas in STEM interview →</a>
+      <div class="fellow-card">
+        <img src="images/fellow-adriane-mcdonald.jpg" alt="Adriane McDonald" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Adriane McDonald</h3>
+          <p class="fellow-meta">CVIF-DLS &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; 2025–present</p>
+          <p>Adriane is a neuroscientist who received her PhD from MIT. She is currently serving as a Science Corps fellow at the Center for Vivid Imaginations Foundation – De La Salle (CVIF-DLS) in the Philippines, where she teaches hands-on science and develops curriculum for students who otherwise have limited access to quality STEM education.</p>
+          <a href="blog/adriane-mcdonald-update-feb-2026.html" class="card__link">Read her updates →</a>
+        </div>
       </div>
-    </div>
 
-    <div class="fellow-profile">
-      <img src="images/fellow-cassidy-childs.jpeg" alt="Cassidy Childs" onerror="this.style.background='var(--blue-light)';this.style.height='200px'">
-      <div>
-        <h3>Cassidy Childs, Ph.D.</h3>
-        <p><strong>Site:</strong> [TODO: fill in]</p>
-        <p>[TODO: fill in] — Bio and fellowship details for Cassidy Childs to be added.</p>
+      <div class="fellow-card">
+        <img src="images/fellow-an-tran.jpg" alt="An Tran" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>An Tran</h3>
+          <p class="fellow-meta">CVIF-DLS &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; 2025–present</p>
+          <p>An Tran is a materials scientist and Science Corps fellow currently based at CVIF-DLS in the Philippines. She works alongside Adriane McDonald to deliver hands-on science programming and build the scientific community at CVIF-DLS.</p>
+        </div>
       </div>
-    </div>
 
-    <p style="color:var(--muted);margin-top:36px">[TODO: fill in] — Additional current fellows to be listed here. Contact us at <a href="mailto:fellows@science-corps.org">fellows@science-corps.org</a> for the most current roster.</p>
+    </div>
   </div>
 </section>
 
 <!-- Former Fellows -->
-<section id="formerfellows1" class="section section--gray">
+<section class="section bg-light" id="formerfellows1">
   <div class="container">
-    <div class="section-title">
-      <h2>Former Fellows</h2>
-      <p>Scientists who have completed their Science Corps fellowship and continue to make an impact.</p>
-      <div class="divider"></div>
-    </div>
+    <h2 class="section-title">Former Fellows</h2>
+    <div class="fellows-grid">
 
-    <div class="fellow-profile">
-      <img src="images/fellow-bianca-main.png" alt="Bianca Baldassarri" onerror="this.style.background='var(--blue-light)';this.style.height='240px'">
-      <div>
-        <h3>Bianca Baldassarri, Ph.D.</h3>
-        <p><strong>Site:</strong> Central Visayan Institute Foundation (CVIF), Bohol, Philippines</p>
-        <p>Bianca taught Research and Physics courses at CVIF. Her fellowship was a journey of connection, learning, and inspiration. She participated in the 10th Jagna International Workshop, engaging with scientists, educators, and students across the region. A memorable highlight was learning to wear the "malong," a traditional Philippine garment, as she immersed herself in local culture while sharing her scientific expertise.</p>
-        <a href="blog/bianca-baldassarri-fellow-update.html" class="btn btn-blue" style="display:inline-block;margin-top:12px">Read her full story →</a>
+      <div class="fellow-card">
+        <img src="images/fellow-danae-woodard.jpg" alt="DaNae Woodard" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>DaNae Woodard</h3>
+          <p class="fellow-meta">CVIF-DLS &nbsp;·&nbsp; Philippines</p>
+          <p>DaNae is a chemist who completed her fellowship at CVIF-DLS in the Philippines. She taught chemistry and developed hands-on laboratory activities for Filipino high school students.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="fellow-profile">
-      <img src="images/filipinas-launch.png" alt="Swastika Issar" onerror="this.style.background='var(--blue-light)';this.style.height='240px'">
-      <div>
-        <h3>Swastika Issar, Ph.D.</h3>
-        <p><strong>Site:</strong> Central Visayan Institute Foundation (CVIF), Bohol, Philippines</p>
-        <p>Swastika taught Research Methods at CVIF, where she worked with high school students in Bohol. To encourage conversation in the classroom, she custom-designed "Science is for Everyone" stamps for students' workbooks. Her work with female students inspired her to launch the "Filipinas in STEM" interview series, which highlights the journeys, wins, and struggles of Filipino women in STEM fields through short interviews published on the Science Corps blog.</p>
-        <a href="blog/filipinas-in-stem-series-launch.html" class="btn btn-blue" style="display:inline-block;margin-top:12px">Filipinas in STEM Series →</a>
+      <div class="fellow-card">
+        <img src="images/fellow-swastika-issar.jpg" alt="Swastika Issar" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Swastika Issar</h3>
+          <p class="fellow-meta">CVIF-DLS &nbsp;·&nbsp; Philippines</p>
+          <p>Swastika is a biologist and science communicator who completed her Science Corps fellowship in the Philippines. She also led the Filipinas in STEM interview series, documenting the stories of Filipino women scientists for a global audience.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="fellow-profile">
-      <div style="background:var(--blue-light);height:240px;width:240px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:3rem">🔬</div>
-      <div>
-        <h3>Victor Sojo, Ph.D.</h3>
-        <p><strong>Site:</strong> Aavishkaar, Palampur, India</p>
-        <p>Victor collaborated with Aavishkaar in India to develop engaging science demonstrations for students and teachers. His DNA extraction video — showing how to extract DNA from bananas using household items — became a widely used educational resource for classroom demonstrations and teacher training workshops throughout the region.</p>
+      <div class="fellow-card">
+        <img src="images/fellow-victor-sojo.jpg" alt="Victor Sojo" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Victor Sojo</h3>
+          <p class="fellow-meta">CVIF-DLS &nbsp;·&nbsp; Philippines</p>
+          <p>Victor is a physicist and former Science Corps fellow who served at CVIF-DLS. He developed physics curricula and led outreach programs connecting students with cutting-edge research.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="fellow-profile">
-      <div style="background:var(--blue-light);height:240px;width:240px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:3rem">🌿</div>
-      <div>
-        <h3>Gaby (Gabriela)</h3>
-        <p><strong>Site:</strong> Aavishkaar, Palampur, India</p>
-        <p>Gaby conducted her fellowship at Aavishkaar in India, documenting her field work in a photo series that captured the spirit of science education in the Himalayan foothills. Her images depict student interactions, field experiments, and the vibrant community at Aavishkaar.</p>
-        <a href="blog/photos-gabys-fellowship-aavishkaar.html" class="btn btn-blue" style="display:inline-block;margin-top:12px">View fellowship photos →</a>
+      <div class="fellow-card">
+        <img src="images/fellow-kris-sales.jpg" alt="Kris Sales" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Kris Sales</h3>
+          <p class="fellow-meta">CVIF-DLS &nbsp;·&nbsp; Philippines</p>
+          <p>Kris is a biochemist who completed her fellowship at CVIF-DLS, where she brought cutting-edge molecular biology concepts to high school students through hands-on experiments and workshops.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="fellow-profile">
-      <img src="images/hero-fieldwork.jpeg" alt="Helena Safavi" onerror="this.style.background='var(--blue-light)';this.style.height='240px'">
-      <div>
-        <h3>Helena [TODO: fill in last name]</h3>
-        <p><strong>Site:</strong> CVIF, Bohol, Philippines</p>
-        <p>Helena conducted field work at CVIF in Bohol, Philippines in 2023, contributing to Science Corps' ongoing partnership with the institution. [TODO: fill in] — Additional details about Helena's fellowship to be added.</p>
+      <div class="fellow-card">
+        <img src="images/fellow-ilayda-karadag.jpg" alt="Ilayda Karadag" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Ilayda Karadag</h3>
+          <p class="fellow-meta">CVIF-DLS &nbsp;·&nbsp; Philippines</p>
+          <p>Ilayda is a physicist who completed her Science Corps fellowship at CVIF-DLS in the Philippines, where she taught physics and developed inquiry-based learning activities.</p>
+        </div>
       </div>
-    </div>
 
-    <p style="color:var(--muted);margin-top:36px">[TODO: fill in] — This list will be expanded with additional former fellows. If you are a former fellow and would like to be listed here, please <a href="contact.html">contact us</a>.</p>
+      <div class="fellow-card">
+        <img src="images/fellow-bianca-baldassarri.jpg" alt="Bianca Baldassarri" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Bianca Baldassarri</h3>
+          <p class="fellow-meta">CVIF-DLS &nbsp;·&nbsp; Philippines</p>
+          <p>Bianca is a biologist who completed her fellowship at CVIF-DLS. She developed biology curriculum and worked with local teachers to build sustainable science education programs.</p>
+        </div>
+      </div>
+
+      <div class="fellow-card">
+        <img src="images/fellow-markus-holzner.jpg" alt="Markus Holzner" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Markus Holzner</h3>
+          <p class="fellow-meta">Aavishkaar &nbsp;·&nbsp; India</p>
+          <p>Markus is a physicist who completed his Science Corps fellowship at Aavishkaar in Palampur, India, where he taught physics and developed hands-on science workshops for students in the Himalayan foothills.</p>
+        </div>
+      </div>
+
+      <div class="fellow-card">
+        <img src="images/fellow-matt-solt.jpg" alt="Matt Solt" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Matt Solt</h3>
+          <p class="fellow-meta">Aavishkaar &nbsp;·&nbsp; India</p>
+          <p>Matt is a physicist who completed his fellowship at Aavishkaar in India. He led physics and mathematics workshops for rural students and contributed to Aavishkaar's hands-on science curriculum development.</p>
+        </div>
+      </div>
+
+      <div class="fellow-card">
+        <img src="images/fellow-gabriela.jpg" alt="Gabriela" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Gabriela (Gaby)</h3>
+          <p class="fellow-meta">Aavishkaar &nbsp;·&nbsp; India</p>
+          <p>Gaby completed her Science Corps fellowship at Aavishkaar in Palampur, Himachal Pradesh, India. Her fellowship photos document workshops, field activities, and the vibrant scientific community at Aavishkaar.</p>
+          <a href="blog/photos-gabys-fellowship-aavishkaar.html" class="card__link">View photos →</a>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
-<section class="section" style="text-align:center">
-  <div class="container">
-    <h2 style="color:var(--blue-dark);margin-bottom:16px">Interested in Becoming a Fellow?</h2>
-    <p style="color:var(--muted);max-width:560px;margin:0 auto 28px">The June 2026 application cycle is now open. PhD scientists in any STEM field are encouraged to apply.</p>
-    <a href="apply.html" class="btn btn-blue">Apply Now</a>
+<!-- CTA -->
+<section class="section">
+  <div class="container" style="text-align:center">
+    <h2>Interested in becoming a fellow?</h2>
+    <p>Science Corps fellowships are open to PhD scientists within four years of completing their doctorate. Fellowships last a minimum of six months.</p>
+    <a href="apply.html" class="btn btn-blue" style="margin-top:16px;display:inline-block">Apply Now</a>
   </div>
 </section>
 
 <footer class="footer">
-  <div class="container">
-    <div class="footer__grid">
-      <div class="footer__brand">
-        <img src="images/logo-white.png" alt="Science Corps" onerror="this.style.display='none'">
-        <p>Science Corps places PhD scientists in underserved communities worldwide to teach STEM and build scientific capacity.</p>
-      </div>
-      <div><h4>About</h4><ul>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="about-us.html#team1">Our Team</a></li>
-        <li><a href="about-us.html#host1">Host Sites</a></li>
-        <li><a href="about-us.html#partner1">Partners</a></li>
-        <li><a href="about-us.html#faq">FAQs</a></li>
-      </ul></div>
-      <div><h4>Fellows</h4><ul>
-        <li><a href="fellows.html#currentfellows">Current Fellows</a></li>
-        <li><a href="fellows.html#formerfellows1">Former Fellows</a></li>
-        <li><a href="apply.html">Apply</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul></div>
-      <div><h4>Connect</h4><ul>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="donate.html">Donate</a></li>
-        <li><a href="mailto:fellows@science-corps.org">Email Us</a></li>
-      </ul></div>
+  <div class="container"><div class="footer__grid">
+    <div class="footer__brand"><img src="images/logo-white.png" alt="Science Corps" onerror="this.style.display='none'"><p>Science Corps places PhD scientists in underserved communities worldwide to teach STEM and build scientific capacity.</p>
+    <div class="footer__social">
+      <a href="https://www.facebook.com/sciencecorps" target="_blank" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+      <a href="https://www.linkedin.com/company/science-corps" target="_blank" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+      <a href="https://www.youtube.com/@sciencecorps" target="_blank" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg></a>
     </div>
-  </div>
-  <div class="footer__bottom">
-    <div class="container">&copy; 2026 Science Corps. All rights reserved.</div>
-  </div>
+    </div>
+    <div><h4>About</h4><ul><li><a href="about-us.html">About Us</a></li><li><a href="about-us.html#faq">FAQs</a></li></ul></div>
+    <div><h4>Fellows</h4><ul><li><a href="fellows.html#currentfellows">Current Fellows</a></li><li><a href="apply.html">Apply</a></li><li><a href="blog.html">Blog</a></li></ul></div>
+    <div><h4>Connect</h4><ul><li><a href="contact.html">Contact Us</a></li><li><a href="donate.html">Donate</a></li></ul></div>
+  </div></div>
+  <div class="footer__bottom"><div class="container">&copy; 2026 Science Corps. All rights reserved.</div></div>
 </footer>
 <script src="js/main.js"></script>
 </body>

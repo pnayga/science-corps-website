@@ -2,6 +2,20 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
+  /* ── Navbar scroll behaviour (transparent → white) ─── */
+  const navbar = document.querySelector('.navbar');
+  if (navbar) {
+    function updateNav() {
+      if (window.scrollY > 40) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    }
+    window.addEventListener('scroll', updateNav, { passive: true });
+    updateNav();
+  }
+
   /* ── Mobile nav toggle ──────────────────────────────── */
   const toggle = document.querySelector('.nav-toggle');
   const menu   = document.querySelector('.nav-menu');
