@@ -4,9 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /* ── Navbar scroll behaviour (transparent → white) ─── */
   const navbar = document.querySelector('.navbar');
+  const hasHero = !!document.querySelector('.hero');
   if (navbar) {
     function updateNav() {
-      if (window.scrollY > 40) {
+      if (!hasHero || window.scrollY > 40) {
         navbar.classList.add('scrolled');
       } else {
         navbar.classList.remove('scrolled');
