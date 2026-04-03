@@ -1,11 +1,12 @@
 Live Site URLs
 ==============
 
-GitHub Pages (staging):
+GitHub Pages (live site):
   https://pnayga.github.io/science-corps-website/
-
-Custom Domain (production):
-  https://science-corps.org
 
 GitHub Repository:
   https://github.com/pnayga/science-corps-website
+
+Note: Custom domain (science-corps.org) is not currently linked to GitHub Pages.
+To re-link it, add science-corps.org as the custom domain in:
+  GitHub repo → Settings → Pages → Custom domain
